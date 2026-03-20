@@ -1,0 +1,14 @@
+[project]
+name = "MPHY0050-cw2-env"
+version = "0.1.0"
+description = "Env for MPHY0050 coursework 2"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "tqdm",
+  "torch",
+  "torchvision",
+  "pandas>=3.0.1",
+]
