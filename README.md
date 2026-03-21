@@ -15,15 +15,17 @@ Each script (e.g. Task1.ipynb) corresponds to the tasks as listed above.
 ## Task1.ipynb
 Currently implemented: 
 - Histograms to view intensity distributions for the 5 classes
+- Basic segmentation using blurring + thresholding
 
 To do:
-- Use this to potentially aid segmentation?
+- Can we use histograms to aid segmentation?
 
 ## Task2.ipynb
 Currently implemented:
 - Bar chart to show class imbalance
 - Dataloader with transformations (grayscale, basic normalisation)
-- Basic ResNet training (does not use class imbalance in any way)
+- Basic ResNet training without class imbalance 
+- Basic ResNet training WITH class imbalance taken into account
 
 To do:
-- Use the class imbalance in model training
+- Train models for more epochs, plot loss curves to monitor convergence
