@@ -35,7 +35,7 @@ Currently implemented:
 - Dataloader with grayscale and normalisation
 - Simple CNN with dropout
 - Model training and loss plot
-- - Histogram of uncertainty
+- Histogram of uncertainty
 - Uncertainty using multiple forward passes
 - Compare uncertainty for correct vs incorrect predictions
 
