@@ -29,3 +29,16 @@ Currently implemented:
 
 To do:
 - Train models for more epochs, plot loss curves to monitor convergence
+
+## Task5.ipynb
+Currently implemented:
+- Dataloader with grayscale and normalisation
+- Simple CNN with dropout
+- Model training and loss plot
+- - Histogram of uncertainty
+- Uncertainty using multiple forward passes
+- Compare uncertainty for correct vs incorrect predictions
+
+To do:
+- Test on more samples
+- Check if higher uncertainty matches wrong predictions
