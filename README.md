@@ -24,11 +24,12 @@ To do:
 Currently implemented:
 - Bar chart to show class imbalance
 - Dataloader with transformations (grayscale, basic normalisation)
-- Basic ResNet training without class imbalance 
-- Basic ResNet training WITH class imbalance taken into account
+- RGB ResNet training without class imbalance 
+- RGB ResNet training with class weights
+- RGB ResNet training with focal loss loss function
 
 To do:
-- Train models for more epochs, plot loss curves to monitor convergence
+- Train models for more epochs (may not be required, performance is already good), plot loss curves to monitor convergence
 
 ## Task5.ipynb
 Currently implemented:
@@ -42,3 +43,10 @@ Currently implemented:
 To do:
 - Test on more samples
 - Check if higher uncertainty matches wrong predictions
+
+- ## Task6.ipynb
+Currently implemented:
+- Load a model and check if the bias matches the bias in the data
+
+To do:
+- Train a model to take bias into account and correct for it
