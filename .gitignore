@@ -2,6 +2,9 @@
 *.png
 *.csv
 
+# torch files
+*.pth
+
 # Mac datastore files
 .DS_Store
 
