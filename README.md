@@ -31,6 +31,13 @@ Currently implemented:
 To do:
 - Train models for more epochs (may not be required, performance is already good), plot loss curves to monitor convergence
 
+## Task4.ipynb
+Currently implemented:
+- ResNet-18 classifier for 5-class myopic maculopathy grading
+- Grad-CAM
+- Occlusion sensitivity
+- Comparison of both explainability methods across all grades
+
 ## Task5.ipynb
 Currently implemented:
 - Dataloader with grayscale and normalisation
