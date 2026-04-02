@@ -42,14 +42,13 @@ Currently implemented:
 Currently implemented:
 - Dataloader with grayscale and normalisation
 - Simple CNN with dropout
-- Model training and loss plot
-- Histogram of uncertainty
-- Uncertainty using multiple forward passes
-- Compare uncertainty for correct vs incorrect predictions
-
+- Model training with loss and accuracy tracking
+- Uncertainty measured using multiple forward passes (MC Dropout)
+-	Full test-set evaluation (variance and entropy as uncertainty measures
+  uncertainty for correct vs incorrect predictions, confidence vs uncertainty)
+ 		
 To do:
-- Test on more samples
-- Check if higher uncertainty matches wrong predictions
+- Analyse most uncertain samples
 
 - ## Task6.ipynb
 Currently implemented:
