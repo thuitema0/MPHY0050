@@ -30,6 +30,13 @@ Currently implemented:
 
 To do:
 - Train models for more epochs (may not be required, performance is already good), plot loss curves to monitor convergence
+ 
+## Task3.ipynb
+Currently implemented:
+- Multi-task learning with hard parameter sharing (ResNet-18 backbone + 3 task-specific heads)
+- GradNorm for task weight balancing during training
+- Single-task baseline
+- Task evaluation to verify that age and sex heads are being learned
 
 ## Task4.ipynb
 Currently implemented:
@@ -37,6 +44,9 @@ Currently implemented:
 - Grad-CAM
 - Occlusion sensitivity
 - Comparison of both explainability methods across all grades
+
+To do:
+- Try to improve the model
 
 ## Task5.ipynb
 Currently implemented:
