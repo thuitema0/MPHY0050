@@ -50,15 +50,14 @@ To do:
 
 ## Task5.ipynb
 Currently implemented:
-- Dataloader with grayscale and normalisation
-- Simple CNN with dropout
+- Dataloader with RGB images and normalisation
+- ResNet18 with dropout
 - Model training with loss and accuracy tracking
-- Uncertainty measured using multiple forward passes (MC Dropout)
--	Full test-set evaluation (variance and entropy as uncertainty measures
-  uncertainty for correct vs incorrect predictions, confidence vs uncertainty)
- 		
-To do:
-- Analyse most uncertain samples
+- Uncertainty estimation using MC Dropout
+- Evaluation on test set (entropy and variance as uncertainty measures)
+- Comparison of uncertainty for correct vs incorrect predictions
+
+Completed
 
 - ## Task6.ipynb
 Currently implemented:
