@@ -57,11 +57,23 @@ Currently implemented:
 - Evaluation on test set (entropy and variance as uncertainty measures)
 - Comparison of uncertainty for correct vs incorrect predictions
 
-Completed
-
 - ## Task6.ipynb
 Currently implemented:
 - Load a model and check if the bias matches the bias in the data
 
 To do:
 - Train a model to take bias into account and correct for it
+
+## Task7.ipynb
+
+Currently implemented:
+- Class-weighted CrossEntropyLoss
+- ResNet-18 with dropout
+- MC Dropout (uncertainty: entropy, variance)
+- Uncertainty analysis (correct vs incorrect, by grade)
+- Uncertainty-guided triage
+- Grad-CAM
+- Grad-CAM (high vs low uncertainty)
+
+To do:
+
