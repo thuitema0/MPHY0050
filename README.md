@@ -17,9 +17,6 @@ Currently implemented:
 - Histograms to view intensity distributions for the 5 classes
 - Basic segmentation using blurring + thresholding
 
-To do:
-- Can we use histograms to aid segmentation?
-
 ## Task2.ipynb
 Currently implemented:
 - Bar chart to show class imbalance
@@ -27,9 +24,6 @@ Currently implemented:
 - RGB ResNet training without class imbalance 
 - RGB ResNet training with class weights
 - RGB ResNet training with focal loss loss function
-
-To do:
-- Train models for more epochs (may not be required, performance is already good), plot loss curves to monitor convergence
  
 ## Task3.ipynb
 Currently implemented:
@@ -45,9 +39,6 @@ Currently implemented:
 - Occlusion sensitivity
 - Comparison of both explainability methods across all grades
 
-To do:
-- Try to improve the model
-
 ## Task5.ipynb
 Currently implemented:
 - Dataloader with RGB images and normalisation
@@ -61,11 +52,7 @@ Currently implemented:
 Currently implemented:
 - Load a model and check if the bias matches the bias in the data
 
-To do:
-- Train a model to take bias into account and correct for it
-
 ## Task7.ipynb
-
 Currently implemented:
 - Class-weighted CrossEntropyLoss
 - ResNet-18 with dropout
@@ -74,6 +61,3 @@ Currently implemented:
 - Uncertainty-guided triage
 - Grad-CAM
 - Grad-CAM (high vs low uncertainty)
-
-To do:
-
